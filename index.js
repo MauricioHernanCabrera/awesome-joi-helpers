@@ -1,7 +1,9 @@
-const awesomeJoiHelpers = (Joi) => {
-  Joi.mongoId = Joi.string().regex(/^[0-9a-fA-F]{24}$/);
+const mongoId = Joi.string().regex(/^[0-9a-fA-F]{24}$/);
 
-  Joi.reorder = Joi.array().items(Joi.mongoId).required();
+const awesomeJoiHelpers = (Joi) => {
+  Joi.mongoId = mongoId;
+
+  Joi.mongoIdList = Joi.array().items(mongoId).required();
 
   return Joi;
 };
