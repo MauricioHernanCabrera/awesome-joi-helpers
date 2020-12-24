@@ -1,0 +1,19 @@
+{
+  "name": "awesome-joi-helpers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "joi helpers mongoid order",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MauricioHernanCabrera/awesome-joi-helpers.git"
+  },
+  "author": "Mauricio Hernan Cabrera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MauricioHernanCabrera/awesome-joi-helpers/issues"
+  },
+  "homepage": "https://github.com/MauricioHernanCabrera/awesome-joi-helpers#readme"
+}
