@@ -1,6 +1,6 @@
 {
   "name": "awesome-joi-helpers",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "joi helpers mongoid order",
   "scripts": {
